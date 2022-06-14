@@ -1,0 +1,5 @@
+Gymnasiums (cinMembers# , cinCoaches# ,addresses, telephone, number, names)
+Members (cinMembers, lastName, firstName, address, date, birth, gender)
+Coaches (cinCoaches, codeSession #,lastName, firstName, age, specialty)
+Session (codeSession, codeSchedule #,sportType, numberOfMembers)
+Schedule (date, codeSession #,codeSchedule)
